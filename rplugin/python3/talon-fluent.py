@@ -6,7 +6,7 @@ import subprocess
 from functools import reduce
 
 # TODO: fix hardcoded path #
-PLUGIN_PATH = "/Users/gauteab/.vim/plugged/nvim-example-python-plugin"
+PLUGIN_PATH = "/Users/gauteab/.vim/plugged/talon-fluent-nvim"
 LIB_PATH = path.join(PLUGIN_PATH, "build", "languages.so")
 Language.build_library(
     LIB_PATH, (path.join(PLUGIN_PATH, p) for p in [
